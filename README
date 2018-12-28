@@ -10,3 +10,5 @@ cron.txt
   Automatically run cron jobs in the background
   at regular intervals by the cron daemon
 
+syntax/
+  Cron syntax
