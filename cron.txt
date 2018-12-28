@@ -1,0 +1,9 @@
+cron.txt
+Created Fri Dec 28 09:22:18 AST 2018
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+
+Cron
+
+
+Automatically run cron jobs in the background at regular intervals by the cron daemon
