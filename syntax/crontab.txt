@@ -27,7 +27,7 @@ Crontab file
 ============
 
 Cron syntax:
-* * * * *      comand to be executed
+* * * * *      command to be executed
 | | | | |
 | | | | + ---- day of week (0 - 6) (Sunday-0)
 | | | + ------ month (1-12)
