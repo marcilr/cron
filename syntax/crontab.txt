@@ -1,0 +1,52 @@
+crontab.txt
+Created Tue Sep  3 15:00:04 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Crontab (CRON TABle) is a file which contains the schedule
+of cron entries to be run and at specified times.  File
+location varies by operating systems, See Crontab file
+location at the end of this document.
+--adminschoice.com/
+
+
+Crontab Commands
+================
+export EDITOR=vi ;to specify a editor to open crontab file.
+
+crontab -e    Edit crontab file, or create one if it doesn’t already
+              exist.
+crontab -l    crontab list of cronjobs , display crontab file contents.
+crontab -r    Remove your crontab file.
+crontab -v    Display the last time you edited your crontab file.
+              (This option is only available on a few systems.)
+--adminschoice.com/
+
+
+Crontab file
+============
+
+Cron syntax:
+* * * * *      comand to be executed
+| | | | |
+| | | | + ---- day of week (0 - 6) (Sunday-0)
+| | | + ------ month (1-12)
+| | + -------- day of month (1 - 31)
+| + ---------- hour (0 - 23)
++ ------------ minute (0 - 59)
+
+...
+
+Could add more details here.
+
+
+
+
+
+
+Links
+=====
+Crontab – Quick Reference
+# Admin's Choice
+Magazine for System Admins & Technologists
+https://www.adminschoice.com/crontab-quick-reference
